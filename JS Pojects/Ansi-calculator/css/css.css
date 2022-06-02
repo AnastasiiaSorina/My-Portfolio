@@ -1,0 +1,19 @@
+.ansi-calculator{
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #ecf7f3;
+    border: 1px solid black;
+}
+.ansi-calculator .operations-blok button{
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+}
+.ansi-calculator .inputs-blok .input-blok {
+    display: inline-block;
+    padding: 10px;
+}
+.ansi-calculator .inputs-blok label{
+    display: block;
+}

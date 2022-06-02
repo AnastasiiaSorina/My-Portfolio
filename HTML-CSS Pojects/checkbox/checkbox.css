@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Kumar+One+Outline|Spicy+Rice');
+@import url('https://fonts.googleapis.com/css?family=Kumar+One+Outline|Spicy+Rice|Titillium+Web');
+main{
+
+}
+
+h1 h2{
+	text-align: center;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+form{
+	margin:auto;
+	width: 80%;
+	text-align: center;
+
+}
+
+label{
+	display: inline-block;
+	width: 200px;
+	height: 100px; 
+	text-align: center;
+	margin-top: 20px;
+	font-size:25px;
+	font-family: 'Kumar One Outline', cursive;
+}
+
+input{
+	display: none;
+}
+
+i{
+	display: inline-block;
+	width: 21px;
+	height: 21px;
+	border: 1px solid #ccc;
+	position: relative;
+	border-radius: 6px;
+	margin: 0 10px;
+}
+
+input[type="radio"]+i{
+	border-radius: 50%;
+}
+
+i:before{
+	content: "";
+	position: absolute;
+	top: 3px;
+	bottom: 3px;
+	left: 3px;
+	right: 3px;
+	background: blue;
+	border-radius: 50px;
+	transform: scale(0);
+	transition: .4s;
+}
+
+input:checked+i:before{
+	transform: scale(1);
+
+}

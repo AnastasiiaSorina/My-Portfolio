@@ -1,0 +1,99 @@
+
+main{
+	margin: auto;
+	width: 230px;
+	position: relative;
+}
+div{
+    background: orange;
+    border: 1px solid black;
+}
+.ear{
+    height: 80px;
+    width: 80px;
+    z-index: -1;
+    position: absolute;
+ }
+ .ear1{
+ 	margin-left: 25px;
+ 	transform: rotate(20deg);
+ 	border-radius: 0px 30px 10px 30px;
+}
+ .ear2{
+ 	margin-left: 180px;
+ 	transform: rotate(80deg);
+ 	border-radius: 0px 30px 10px 30px;
+}
+ .little_ear{
+ 	background: white;
+ 	height: 60px;
+    width: 60px;
+}
+ .little_ear1{
+    margin-top: 13px;
+    transform: rotate(0);
+    margin-left: 16px;
+    margin-top: 13px;
+ }
+  .little_ear2{  
+ 	margin-left: 16px;
+    margin-top: 13px;
+    transform: rotate(0);
+    border-radius: 0px 30px 10px 30px;
+ }
+ .head{
+ 	position: relative;
+    height: 200px;
+    width: 200px;
+    border-radius: 200px 70px 20px 70px;
+    transform: rotate(45deg);
+    margin-left: 40px;
+    margin-top: 60px;
+    z-index: 2;
+}
+
+.eye{
+	background: black;
+	height: 35px;
+	width: 2px;
+	z-index: 2;
+	border-radius: 5px;
+	position: absolute;
+}
+.eye1{
+	margin-left: 156px;
+	margin-top: 59px;
+	transform: rotate(12deg);
+}
+.eye2{
+	margin-left: 80px;
+	margin-top: 136px;
+	transform: rotate(75deg);
+}
+.nose{
+ 	width: 20px;
+	height: 20px;
+	background: black; 
+    border-radius: 50px 11px 5px 11px;
+    margin-top: 175px;
+    margin-left: 175px;
+    position: absolute;
+}
+.cheek{
+	height: 110px;
+    width: 25px;
+    background: white;
+    border: none;
+    position: absolute;
+}
+.cheek1{
+    border-radius: 110px 0px 19px 75px;
+    margin-left: 175px;
+    margin-top: 80px;
+}
+.cheek2{
+    transform: rotate(-90deg);
+    border-radius: 0 110px 73px 19px;
+    margin-left: 123px;
+    margin-top: 132px
+}

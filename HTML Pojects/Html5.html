@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>HTML 5</title>
+</head>
+<body>
+<header>
+	<abbr title="HyperText Markup Language"><h1>HTML</h1></abbr>
+	<hr/>
+	<address><a href="https://uk.wikipedia.org/wiki/HTML5" title="
+		click on the link to go to the source site.">From Wikipedia, the free encyclopedia.</a></address>
+</header>
+	<article>
+		<p><strong>HTML5</strong> —  <a href="https://uk.wikipedia.org/wiki/HTML" title="the standard language for marking web pages on the Internet. A fast web page helps improve HTML (or XHTML). The HTML document will be processed by the browser and opened for viewing in the usual way for people.">HTML</a>The HTML5 working group included AOL , Apple , Google , IBM , Microsoft , Mozilla , Nokia , Opera and several hundred other manufacturers.</p>
+		<p>There is some confusion about versioning, as there are two independent development groups  , WHATWG and W3C .</p>
+		<p>WHATWG abandoned the principle of "versioning" in favor of "perpetual development" when adopting the HTML specification.<sup><a href="#_1">[1]</a></sup> This decision was caused by an attempt to speed up the implementation of the standard, ie web browser developers do not have to wait until the official approved version of the specification (specification goes into recomendation), they can implement certain parts of the specification now. Therefore, according to WHATWG, there is only one specification that is constantly evolving - HTML.</p>
+		<p>The two groups worked in tandem: WHATWG wrote the specifications in "live standard" mode, and the W3C took these specifications as "snapshots" and incorporated them into clear versions of its specification. The W3C was much slower because it had to meet the needs of a wider range of users, not just web browsers . <sup><a href="#_2">[2]</a></sup></p>
+		<p>On October 28, 2014, the W3C consortium announced the provision of a set of HTML5 specifications of the recommended standard status.<sup><a href="#_3">[3]</a></sup> Interestingly, HTML 5.0 specifications were formed in this form two years before the work focused on testing and evaluating the compatibility of available implementations. At the time of standardization, HTML5 has long been the de facto standard and is widely used in web applications . The actual approval of the standard only formally put an end to the promotion of HTML5 and confirmed the ubiquity and correctness of its implementation.</p>
+		<p>HTML5 specifications are not limited to markup and include a number of web technologies that together form an open web platform, a software environment for cross-platform applications that can interact with hardware and that support video, graphics, and animation tools. , which provides advanced networking capabilities.<sup><a href="#_4">[4]</a></sup></p>
+	</article>
+	<nav>
+		<h3>Content</h3>
+		<ol>
+			<li><a href="#1">History</a></li>
+			<li><a href="#2">Documentation Structure (WHATWG)</a></li>
+			<li><a href="#3">New Features</a></li>
+			<li><a href="#3_1">New tags have been introduced and some have been removed </a></li>
+			<li><a href="#3_2">Example markup web pages with HTML5</a></li>
+			<li><a href="#3_3">Support for &lt;video&gt; and &lt;audio&gt;</a></li>
+			<li><a href="#3_4">Vector graphics</a></li>
+			<li><a href="#3_4_1">&lt;canvas&gt;</a></li>
+			<li><a href="#3_4_2">SVG</a></li>
+			<li><a href="#3_5">Data storage on the client</a></li>
+			<li><a href="#3_6">Editing content elements</a></li>
+			<li><a href="#4">Technologies that are not part of HTML5 </a></li>
+			<li><a href="#5">The process of standardization</a></li>
+			<li><a href="#6">Footnotes</a></li>
+			<li><a href="#7">Link</a></li>
+		</ol>
+	</nav>
+<main>
+	<section id="1">
+		<h2>History</h2>
+		<hr/>
+		<article>
+<p>Work on HTML5 began in late 2003 as proof of the concept that HTML4 forms can be extended in many ways with XForms 1.0 without requiring changes incompatible with existing web pages. At this early stage, although the project was already available to the public and receiving critical comments, the specification was protected by Opera's copyright</p>
+
+<p>In early 2004, the work was presented jointly by Mozilla and Opera at the W3C for a working discussion on the future of web applications . The proposal was rejected due to contradictions with the previously chosen W3C direction of Internet evolution - XHTML .</p>
+
+<p>Shortly afterwards, Apple, Mozilla and Opera announced their intention to continue working together. An open mailing list was created and the project was moved to the WHATWG website . The copyright has been amended so that the work will be jointly owned by all three suppliers and will allow the re-use of specifications.</p>
+
+<p>In 2006, the W3C expressed interest in the specification and set up a working group to work with the WHATWG to develop the HTML5 specification. The working group was opened in 2007 . Apple, Mozilla, and Opera have allowed the W3C to publish a specification under the W3C license, while maintaining a version with a less restrictive license on the WHATWG website. Since then, both groups have been working together.
+
+	On January 22, 2008 the draft of the next, fifth version of the HTML hypertext markup language was presented.</p>
+
+<p>On January 22, 2008 the draft of the next, fifth version of the HTML hypertext markup language was presented.</p>
+
+<p>Work on HTML5, which began in 2004, is now coming to an end with the joint efforts of W3C HTML WG and WHATWG. Many key figures are also involved in the development, including representatives of the largest browser developers: Apple , Google , Microsoft , Mozilla and Opera ; as well as other organizations and users with different interests and experiences.
+
+	Documentation Structur</p>
+		</article>
+	</section>
+	<section id="2">
+		<h2>Documentation Structure (WHATWG)</h2>
+		<article>
+			<p>The WHATWG Working Group proposes the following documentation structure:</p>
+			<ol>
+				<li>Terms.</li>
+				<li>Semantics, structure, and API of an HTML document.</li>
+				<li>HTML elements</li>
+				<li>Microdata</li>
+				<li>Loading web pages</li>
+				<li>API for web applications</li>
+				<li>Interaction with the user</li>
+				<li>Video conferencing and peer-to-peer interaction/li>
+				<li>Message</li>
+				<li>HTML syntax</li>
+				<li>XHTML syntax</li>
+				<li>Deprecated features</li>
+			</ol>
+		</article>
+	</section>
+	<section id="3">
+		<h2>New Features</h2>
+		<hr/>
+		<article id="3_1">
+<h3>New tags have been introduced and some have been removed</h3>
+<p>In total, it is proposed to remove about 15 tags from the new version of the markup language.</p>
+
+<p>When deciding to introduce new tags, most of the popular sites were considered and the main elements that were common to all web pages were highlighted .</p>
+
+<p>By marking areas on the page with specific elements, this technology can help make it easier for the user to navigate. For example, it can easily skip the navigation section or quickly move from one article to another without the need for authors to make relevant links. Authors also benefit from replacing a large number of divs with one of several relevant elements, which also results in a clean and easy source code for the author.</p>
+
+<p>Header elements are section headers. They can consist of several parts - for example, it would be justified to divide the title block into subheadings, version history or attribution. The footer element defines the bottom of the partition to which it belongs. It usually contains information about the section - for example, the author's name, links to similar documents, copyright and the like. The nav block contains a list of links for navigation. Suitable, for example, for site navigation, or for content. The aside element is suitable for placing content in any way related to the main content. Normally it will be useful for marking the side column. The section tag represents a general section of a document or application, such as a section. The article tag marks an independent section of a document, page, or site.</p>
+		</article>
+		<article id="3_2">
+			<h3>Example markup web pages with HTML5 </h3>
+			
+<pre>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;meta charset=utf-8&gt;
+        &lt;title>Simple HTML5&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;header&gt; header &lt;/header&gt;
+        &lt;nav&gt; navigation &lt;/nav&gt;
+        &lt;section&gt;
+            &lt;article&gt;
+                &lt;h2&gt; Article header &lt;/h2&gt;
+                Article
+            &lt;/article&gt;
+            &lt;article&gt;
+                &lt;h2> Article header &lt;/h2>
+                Article
+            &lt;/article&gt;
+        &lt;/section&gt;
+        &lt;aside&gt; sidebar content &lt;/aside&gt;
+        &lt;footer&gt; copyright &lt;a href="https:\\www.google.com", "Google">&lt;/a&gt;
+        &lt;/footer&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</pre>
+		</article>
+		<article id="3_3">
+			<h3>Support for &lt;video&gt; and &lt;audio&gt;</h3>
+<p>In HTML5, you just need to use the appropriate tags to connect a video or audio track to the page.</p>
+
+<p>Sites like Youtube , Viddler , Revver , Myspace and dozens of others allow anyone to post their video or audio. Many sites resort to Flash to provide the required functionality because HTML 4.1 lacks the tools to embed and manage multimedia. And, although such features are provided by various plugins ( Quicktime , Windows Media , etc.), in our time Flash is the only widely used plugin that provides a cross-browser solution with the appropriate API for developers.</p>
+
+<p>As evidenced by the large number of Flash-based media players, the authors are interested in providing an interface with their own design, which typically allows users to turn on, pause, stop, rewind, and control the volume. The challenge is to provide this functionality by adding the ability to embed video and audio through the browser, as well as provide a DOM API for script access.</p>
+
+<p>The video and audio elements make it easy to do this. Most APIs are common between these elements, with differences only in visual and non-visual media. All modern browsers (except Internet Explorer ) have already implemented support for these elements. The easiest way to embed video is to use the video tag and allow the browser to display the default interface. The Boolean controls attribute determines whether to include this user interface by default.</p>
+
+<p>The optional poster attribute can be used to specify an image that will be displayed before the video starts playing. Although there are video formats that support their own preview (such as Mpeg-4), this method is a solution that allows you to be independent of the video format.</p>
+
+<p>It is also easy to connect audio - using the audio element. Although for obvious reasons the audio tag does not have height, width, and poster attributes, most attributes are common between video and audio.</p>
+
+<p>HTML5 includes a source element to specify alternate video and audio files so that the browser can select the one that matches the supported media type or codecs . The media attribute determines the choice of media query based on device limitations, and the type attribute determines the capabilities of media types and codecs. When using the source attribute, omit src in the video (audio) elements, otherwise source will be ignored./p>
+
+<p>There are many other attributes and APIs for video and audio elements not described <a href="#">here</a>. You can learn more in the current version of the specification.</p>
+		</article>
+	</section>
+	<section id="3_4">
+		<h2>Vector graphics</h2>
+		<hr/>
+		<article>
+			<h4 id="3_4_1">&lt;canvas&gt;</h4>
+			<p>With the new &lt;canvas&gt;  element, developers will be able to create two-dimensional images and animations using JavaScript .</p>
+			<p>It is worth noting that the elements that make up two-dimensional images and animations in the  &lt;canvas&gt; container are not included in the DOM (Document Object Model).</p>
+			<h4 id="3_4_2">SVG</h4>
+			<p>You can insert SVG graphics directly into the body of an HTML document. Elements of such graphics are included in the DOM.</p>
+		</article>
+	</section>
+	<section id="3_5">
+		<h3>Data storage on the client </h3>
+		<article>
+			<p>In addition, HTML5 allows developers to store client-side data. This will significantly reduce the amount of information transmitted between the web browser and the server when using web-2.0 applications. Work is currently underway on the following specifications, which cover this section:</p>
+			<ul>
+				<li>Session Storage</li>
+				<li>Local Storage</li>
+				<li>IndexedDB</li>
+			</ul>
+		</article>
+		<article id="3_5">
+			<h3>Editing content elements</h3>
+			<p>The content of any element on the page can be easily changed using the contentEditable property. This method is widely used when creating WYSIWYG applications.</p>
+		</article>
+	</section>
+	<section id="4">
+		<h2>Technologies that are not part of HTML5 </h2>
+		<hr/>
+		<article>
+			<p>There is a set of technologies that are very often mistaken for HTML5, although they actually apply to other specifications.</p>
+				<ul>
+					<li>WebGL</li>
+					<li>FileReader</li>
+					<li>XMLHttpRequest</li>
+					<li>querySelector(All)</li>
+					<li>Geolocation</li>
+					<li>ECMAScript5</li>
+					<li>CSS3</li>
+					<li>XBL2</li>
+					<li>Web Workers</li>
+					<li>Web Sockets</li>
+					<li>Faster JavaScript</li>
+				</ul>
+		</article>
+	</section>
+	<section id="5">
+		<h2>The process of standardization</h2>
+		<hr/>
+		<article>
+<p>According to the HTML5 development plan presented by the W3C consortium in September <sup><a href="#_5">[5]</a></sup><sup><a href="#_6">[6]</a></sup>, the final HTML 5.0 specifications will be published in the fourth quarter of 2014, after which work will begin on the HTML 5.1 standard, which is scheduled for release in late 2016.</p>
+
+<p>The HTML5 standard is planned to be formed in two stages and designed on a modular basis, which means that there is a set of self-sufficient specifications developed by different working groups. HTML 5.0 will include specifications that will be stabilized and agreed upon by 2014, and other specifications that will leave unresolved issues in the preparation of HTML 5.0 will be postponed and included in the HTML 5.1 standard. Thus, new specifications and extensions will gradually be included in the HTML5 standard as they become available.</p>
+
+<p>Among the draft specifications that are being considered for inclusion in the HTML5 standard (most of the presented specifications are already well supported by modern browsers and are widely used on websites and in web applications ):</p>
+<ul>
+	<li>HTML Microdata</li>
+	<li>HTML Canvas 2D Context</li>
+	<li>HTML5 Web Messaging</li>
+	<li>Web Workers</li>
+	<li>Web Storage</li>
+	<li>The WebSocket API</li>
+	<li>The WebSocket Protocol</li>
+	<li>Server-Sent Events</li>
+	<li>WebRTC</li>
+	<li>WebVTT</li>
+	<li>HTML+RDFa</li>
+	<li>DOM Parsing and Serialization</li>
+	<li>Shadow DOM</li>
+	<li>Web Intents</li>
+	<li>Polyglot Markup: HTML-Compatible XHTML Documents</li>
+	<li>HTML5: Techniques for providing useful text alternatives</li>
+	<li>HTML Editing APIs</li>
+	<li>HTML Media Capture</li>
+	<li>Media Capture and Streams</li>
+	<li>Media Fragments URI</li>
+	<li>Encrypted Media Extensions</li>
+	<li>Media Source Extensions</li>
+	<li>SVG</li>
+	<li>MathML</li>
+	<li>WAI-ARIA</li>
+</ul>
+		</article>
+	</section>
+	<section id="6">
+		<h2>Footnotes </h2>
+		<hr/>
+		<ol>
+		<li id="_1">WHATWG abandons the principle of "versioning" Archived</li>
+ 		<li id="_2">The difference between the WHATWG and HTMLWG</li>
+ 		<li id="_3">HTML5 IS A W3C RECOMMENDATION</li>
+ 		<li id="_4">The W3C consortium has approved the HTML5 standard</li>
+ 		<li id="_4">Plan 2014</li>
+ 		<li id="_6">The W3C consortium plans to release the HTML 5.0 standard in late 2014</li>
+ 		</ol>
+	</section>
+	<section id="7">
+		<h2>Link </h2>
+		<ul>
+<li>WHATWG Current draft</li>
+<li>W3C HTML Working Group</li>
+<li>W3C Editor's draft</li>
+<li>Differences from HTML 4</li>
+<li>Mozilla Development Network — HTML5</li>
+<li>94% of developers bet on winning HTML 5</li>
+<li>The Future of HTML: Part 1. WHATWG</li>
+		</ul>
+	</section>
+</main>
+	<footer>
+		<span>By AnastasiDa</span> 
+		<nav>
+			<a href="https://github.com/AnastasiiaSorina">My GitHub Profile</a>
+			<a href="tel:+380930006922">viber</a>
+			<a href="mailto:anastasiiasorina@gmail.com">e-mail</a>
+		</nav>
+	</footer>
+</body>
+</html>

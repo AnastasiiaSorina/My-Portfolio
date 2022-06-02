@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Black+And+White+Picture');
+
+*{
+	margin: 0;
+	padding: 0; 
+}
+nav{
+	width: 70%;
+	margin: 5% 15%;
+
+}
+
+ul{
+	list-style-type: none;
+	border-radius: 50px 50px 50px 50px;
+	background-color: #1C1C1C;
+	background: linear-gradient(to top, #939A93, #1C1C1C);
+	box-shadow: 0 0 50px #939A93;	
+}
+
+li:first-child{
+	border-radius: 50px 25px 25px 50px;
+}
+
+li:last-of-type{
+	border-radius:  25px 50px 50px 25px;
+	width: 20%;
+
+}
+
+li{
+	display: inline-block;
+	width: 19.5%;
+	text-align: center;
+	height: 50px;
+	border-radius: 10px;
+	font-family: 'Black And White Picture', sans-serif;
+}
+
+li:hover, .naw:hover{
+	box-shadow: 0 0 50px #51E6E6;	
+}
+
+li:active, .naw:active{
+	box-shadow: 0 0 50px #B0FCFC;
+}
+
+a{
+	text-decoration: none;
+	display: block;
+	font-size: 2em;
+	color: #51E6E6;
+	margin-top: 5px;
+	height: 50px;
+	width: 100%
+} 
+a:active{
+	color: white;
+}
+.naw{
+	box-shadow: -1px 26px 25px -15px #B0FCFC;
+}

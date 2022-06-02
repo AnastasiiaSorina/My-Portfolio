@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
+*{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: "Poiret One", cursive;
+}
+h1{
+	padding-top: 10%;
+	font-size: 45px;
+	text-shadow: 0 0 60px #FF69B4;
+}
+
+input[type="submit"]{
+	color: black;
+	width: 200px;
+	height: 50px;
+	border-radius: 50px; 
+	border: 5px outset #FF69B4;
+	background-color: pink;
+	font-size: 20px; 
+}
+input[type="submit"]:hover{
+	color: black;
+	border: 5px inset #FF69B4;
+
+}
+
+input[type="submit"]:active{
+	color: black;
+	border: 5px ridge #f2cbea;
+}
+input:hover{
+	box-shadow: 0 0 50px pink;
+}
+input:focus{
+	border: 5px solid #FF69B4;
+}
+ input[type="mail"]:valid{
+ 	box-shadow: 0 0 50px red;
+ }
+
+input{
+	display: block;
+	margin: 20px auto;
+	width: 250px;
+	height: 50px;
+	outline:none;
+}

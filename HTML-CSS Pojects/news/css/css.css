@@ -1,0 +1,48 @@
+.selection-main h1{
+    text-align: center;
+}
+.selection-main .selection-hot h2,
+.selection-main .selection-realty h2{
+    color: white;
+    padding: 10px;
+}
+.selection-main .selection-hot h2{
+    background-color: darkolivegreen;
+}
+.selection-main .selection-realty h2{
+    background-color:darkturquoise;
+}
+.selection-main .selection-hot li,
+.selection-main .selection-realty li{
+    padding: 10px;
+}
+.selection-main .selection-hot li:hover{
+    background-color: darkolivegreen;
+}
+
+.selection-main .selection-realty li:hover{
+    background-color:darkturquoise;
+}
+.selection-main .selection-hot li:hover a {
+    color: white;
+}
+.selection-main .selection-realty li:hover a {
+    color: white;
+}
+.selection-main .selection-hot a,
+.selection-main .selection-realty a{
+    color: black;
+    text-decoration: none;
+}
+.selection-main .selection-hot .footer,
+.selection-main .selection-realty .footer{
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+.selection-main .selection-hot .footer{
+    background-color: darkolivegreen;
+}
+.selection-main .selection-realty .footer{
+    background-color: darkturquoise;
+}
