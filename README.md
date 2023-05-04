@@ -12,7 +12,6 @@
 3. JS Pojects
 - [Ansi-calculator](https://github.com/AnastasiiaSorina/myPortfolio/tree/main/JS%20Pojects/Ansi-calculator)
 - [Ansi-slider](https://github.com/AnastasiiaSorina/myPortfolio/tree/main/JS%20Pojects/Ansi-slider)
-- [finance_calculators]
-- [сalculator]
-- [full_name]
-- [Ansi-slider]
+- [finance_calculators](https://github.com/AnastasiiaSorina/HTML-JS/blob/main/Python/finance_calculators.py)
+- [сalculator](https://github.com/AnastasiiaSorina/HTML-JS/blob/main/Python/%D1%81alculator.py)
+- [full_name](https://github.com/AnastasiiaSorina/HTML-JS/blob/main/Python/full_name.py)
